@@ -39,7 +39,7 @@ export default function Imgmeme(){
               <option value={3}>Puño de ira</option>
           </select>
           <figure className="text-center w-50 m-auto " id="exportarImg" >
-              <p className=" text-center   px-30 position-absolute top-40 p-3  h1  text-dark">{Textomeme}</p>
+              <p className=" text-center w-50 px-m-20  px-30 position-absolute top-40 p-3    text-dark">{Textomeme}</p>
               <img  src={`./meme/${imgmemes}.jpg`} className="w-100 figure-img img-fluid mt-3 d-block m-auto" alt="meme"/>
           </figure>
           <button onClick={exportar} type="button" className="btn btn-dark mt-4 mb-4 m-auto">Descargar Meme </button>
