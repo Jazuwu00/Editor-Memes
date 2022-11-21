@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+
+}
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,7,64,1) 38%, rgba(158,3,29,1) 100%);
+  color:aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#exportarImg p {
+  word-break: break-all;
+  width: 800px;
+  height: 20px;
+ 
+}
